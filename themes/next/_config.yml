@@ -83,7 +83,7 @@ menu:
   home: / || home
   about: /about/ || user
   tags: /tags/ || tags
-  categories: /categories/ || th
+  #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -725,7 +725,13 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
+# 站点建立时间
+since: 2017
 
+# 分享
+#jiathis: true
+#baidushare: true
+ 
 # Assets
 css: css
 js: js
