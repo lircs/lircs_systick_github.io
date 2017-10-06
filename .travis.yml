@@ -26,4 +26,4 @@ branches:
     - blog-source
 env:
  global:
-   - GH_REF: git@github.com:SysTick/systick.github.io.git
+   - GH_REF: https://github.com/SysTick/systick.github.io.git
