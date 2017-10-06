@@ -26,4 +26,4 @@ branches:
     - develop
 env:
  global:
-   - GH_REF: https://github.com/SysTick/systick.github.io.git
+   - GH_REF: github.com/SysTick/systick.github.io.git
