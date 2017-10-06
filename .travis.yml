@@ -1,23 +1,29 @@
 language: node_js
 node_js: stable
-before_install:
-  - npm install -g hexo
+
+# S: Build Lifecycle
 install:
   - npm install
+
+#before_script:
+ # - npm install -g gulp
+
 script:
-  - hexo generate
+  - hexo g
+
 after_script:
   - cd ./public
   - git init
-  - git config user.name "zack.li"
+  - git config user.name "Zhili Yang"
   - git config user.email "zack.li@xbro.cn"
   - git add .
-  - git commit -m "Update docss"
+  - git commit -m "Update docs from travis_ci"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
 branches:
   only:
-    - hexo
+    - develop
 env:
-  global:
-  - GH_REF: https://github.com/SysTick/systick.github.io.git
-  - secure: GH_TKEN
+ global:
+   - GH_REF: https://github.com/SysTick/systick.github.io.git
