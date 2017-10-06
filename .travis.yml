@@ -23,7 +23,7 @@ after_script:
 
 branches:
   only:
-    - blog-source
+    - develop
 env:
  global:
    - GH_REF: https://github.com/SysTick/systick.github.io.git
