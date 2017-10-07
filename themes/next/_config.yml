@@ -82,7 +82,7 @@ index_with_subtitle: false
 menu:
   home: / || home
   about: /about/ || user
-  tags: /tags/ || tags
+  #tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
@@ -125,7 +125,7 @@ social:
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
-  微博: http://weibo.com/532356790
+  Weibo: http://weibo.com/532356790
 
 social_icons:
   enable: true
