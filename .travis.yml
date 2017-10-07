@@ -17,7 +17,7 @@ after_script:
   - git config user.name "SysTick"
   - git config user.email "zack.li@xbro.cn"
   - git add .
-  - git commit -m "Update docs, Auto build by Travis ci"
+  - git commit -m "Update docs, Auto build by Travis."
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # E: Build LifeCycle
 
