@@ -1,6 +1,7 @@
 ---
 title: ABOUT
 date: 2017-10-02 09:59:16
+comments: false
 ---
 > **关于博主**
 
