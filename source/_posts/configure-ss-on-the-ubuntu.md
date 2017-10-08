@@ -75,7 +75,7 @@ vim /etc/shadowsocks.json
 $ ssserver -c /etc/shadowsocks.json -d start
 ```
 
-### 4. 查看相应的端口的监听状态
+### 查看相应的端口的监听状态
 
 ![netstat -lnp](/images/article/netstat -lnp.png)
 
