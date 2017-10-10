@@ -18,12 +18,12 @@ after_script:
   - git config user.email "zack.li@xbro.cn"
   - git add .
   - git commit -m "Update docs, Auto build by Travis."
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - git push --force --quiet "https://${FARAWAY_CI}@${GH_REF}" master:master
 # E: Build LifeCycle
 
 branches:
   only:
-    - develop
+    - master
 env:
  global:
    - GH_REF: github.com/SysTick/systick.github.io.git
