@@ -74,6 +74,7 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 theme: maupassant
+#theme: hexo-theme-yilia
 #theme: next
 
 # Deployment
