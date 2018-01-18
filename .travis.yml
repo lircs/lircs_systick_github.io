@@ -7,8 +7,6 @@ install:
 
 #before_script:
  # - npm install -g gulp
-  - npm install hexo-renderer-pug --save
-  - npm install hexo-renderer-sass --save 
 
 script:
   - hexo g
