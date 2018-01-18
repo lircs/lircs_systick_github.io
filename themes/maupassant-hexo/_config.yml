@@ -62,7 +62,7 @@ menu:
     directory: atom.xml
     icon: fa-rss
   - page: timeline
-    directory: timeline/
+    directory: timeline
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
@@ -81,13 +81,13 @@ links:
     url: http://www.example3.com/
 
 timeline:
-  - num: 1
-    word: 2014/06/12-Start
-  - num: 2
-    word: 2014/11/29-XXX
-  - num: 3
-    word: 2015/02/18-DDD
   - num: 4
+    word: 2014/06/12-Start
+  - num: 3
+    word: 2014/11/29-XXX
+  - num: 2
+    word: 2015/02/18-DDD
+  - num: 1
     word: More
 
 # Static files
