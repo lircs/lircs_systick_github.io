@@ -61,6 +61,8 @@ menu:
   - page: rss
     directory: atom.xml
     icon: fa-rss
+  - page: timeline
+    directory: timeline/
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
