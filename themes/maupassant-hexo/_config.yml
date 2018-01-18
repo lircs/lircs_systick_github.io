@@ -49,20 +49,21 @@ donate:
   paypal_url: ## Paypal URL, e.g. https://paypal.me/tufu9441
 
 menu:
-  - page: home
+  - page: 主页
     directory: .
     icon: fa-home
-  - page: archive
+  - page: 归档
     directory: archives/
     icon: fa-archive
-  - page: about
+  - page: 历史
+    directory: timeline
+    icon: fa-random
+  - page: 关于
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
-  - page: timeline
-    directory: timeline
+ # - page: rss
+ #   directory: atom.xml
+ #   icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
