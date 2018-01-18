@@ -7,6 +7,9 @@ install:
 
 #before_script:
  # - npm install -g gulp
+  - npm install -g cnpm --registry=https://registry.npm.taobao.org
+  - cnpm install hexo-renderer-pug --save
+  - cnpm install hexo-renderer-sass --save
 
 script:
   - hexo clean
