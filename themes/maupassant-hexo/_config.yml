@@ -3,7 +3,7 @@ disqus: ## Your disqus_shortname, e.g. username
 gitment:
   enable: true ## If you want to use Gitment comment system please set the value to true.
   owner: SysTick ## Your GitHub ID, e.g. username
-  repo: systick.github.io ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
+  repo: github.com/SysTick/lircs ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
   client_id: 384d6e21709d72f05847 ## GitHub client ID, e.g. 75752dafe7907a897619
   client_secret: dad6de584c53ce7e4763cc4a4b14915463a488a7 ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
 uyan: ## Your uyan_id. e.g. 1234567
